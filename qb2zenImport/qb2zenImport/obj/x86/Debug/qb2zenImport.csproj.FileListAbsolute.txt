@@ -1,0 +1,13 @@
+C:\Users\andys\Documents\Visual Studio 2010\Projects\qb2zenImport\qb2zenImport\obj\x86\Debug\qb2zenImport.csproj.ResolveComReference.cache
+C:\Users\andys\Documents\Visual Studio 2010\Projects\qb2zenImport\qb2zenImport\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\andys\Documents\Visual Studio 2010\Projects\qb2zenImport\qb2zenImport\bin\Debug\qb2zenImport.exe
+C:\Users\andys\Documents\Visual Studio 2010\Projects\qb2zenImport\qb2zenImport\bin\Debug\qb2zenImport.pdb
+C:\Users\andys\Documents\Visual Studio 2010\Projects\qb2zenImport\qb2zenImport\obj\x86\Debug\qb2zenImport.exe
+C:\Users\andys\Documents\Visual Studio 2010\Projects\qb2zenImport\qb2zenImport\obj\x86\Debug\qb2zenImport.pdb
+C:\Users\andys\Documents\My Dropbox\flora\qb2zenImport\qb2zenImport\bin\Debug\qb2zenImport.exe
+C:\Users\andys\Documents\My Dropbox\flora\qb2zenImport\qb2zenImport\bin\Debug\qb2zenImport.pdb
+C:\Users\andys\Documents\My Dropbox\flora\qb2zenImport\qb2zenImport\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\andys\Documents\My Dropbox\flora\qb2zenImport\qb2zenImport\obj\x86\Debug\qb2zenImport.csproj.ResolveComReference.cache
+C:\Users\andys\Documents\My Dropbox\flora\qb2zenImport\qb2zenImport\obj\x86\Debug\qb2zenImport.exe
+C:\Users\andys\Documents\My Dropbox\flora\qb2zenImport\qb2zenImport\obj\x86\Debug\qb2zenImport.pdb
+C:\Users\andys\Documents\My Dropbox\flora\qb2zenImport\qb2zenImport\bin\Debug\qb2zenImport.exe.config
