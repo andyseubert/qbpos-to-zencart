@@ -38,9 +38,7 @@
 
 = What output to expect = 
    * The program produces two files of output
-      * <datetimestamp>NotOnline.csv
+      * {{{<datetimestamp>}}}NotOnline.csv
          * This contains a listing of all items which are in the export file but were not found online. You can use this to know which items to your online cart 
-      * <datetimestamp>Online.csv
+      * {{{<datetimestamp>}}}Online.csv
          * This file contains all of the items that were found in the online cart, and whether or not the quantities were updated.
-
-
