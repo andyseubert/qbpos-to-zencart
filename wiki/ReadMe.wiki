@@ -1,5 +1,4 @@
 
-
 = Requirements =
    * QuickBooks Point Of Sale
    * Zen Cart online shopping cart configured with a mysql database http://www.zen-cart.com/
@@ -34,6 +33,7 @@
 
 
 == exporting from quickbooks ==
+   * Read here ExportingFromQBPOS  
 
 
 = What output to expect = 
