@@ -1,4 +1,4 @@
-#Configuration Steps
+
 
 = Requirements =
    * QuickBooks Point Of Sale
@@ -42,3 +42,4 @@
          * This contains a listing of all items which are in the export file but were not found online. You can use this to know which items to your online cart 
       * {{{<datetimestamp>}}}Online.csv
          * This file contains all of the items that were found in the online cart, and whether or not the quantities were updated.
+   * The program also moves the ItemsFile from it's original location into the Archve path, and also changes it's name to be a datetimestamp only.
