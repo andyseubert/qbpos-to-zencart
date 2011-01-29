@@ -5,7 +5,8 @@ This is a program which will take an .xls (excel) file of items and make sure th
 = Detailed Overview =
 
 Our physical store is where most of our sales are made.
-<img src=http://mt0.google.com/vt/data=kZejAfhQzT0qgJwnbqX7200571OI6E-2V_WqG2ivGi2GsUz4K_3czx3iG9gJ7Idk1SS1uj0TQizXWJGCUY8gLLs-VMABH5AW0ULIcwg />
+
+<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?q=flora&amp;gl=us&amp;ie=UTF8&amp;hl=en&amp;view=map&amp;cid=9806749217862381080&amp;ll=45.521221,-122.680846&amp;spn=0.006295,0.006295&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?q=flora&amp;gl=us&amp;ie=UTF8&amp;hl=en&amp;view=map&amp;cid=9806749217862381080&amp;ll=45.521221,-122.680846&amp;spn=0.006295,0.006295&amp;iwloc=A&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 
 http://maps.google.com/maps/place?cid=9806749217862381080&q=flora&gl=us
 
