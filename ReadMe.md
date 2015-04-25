@@ -1,0 +1,44 @@
+# Requirements #
+  * QuickBooks Point Of Sale
+  * Zen Cart online shopping cart configured with a mysql database http://www.zen-cart.com/
+  * Excel
+  * I recomend using dropbox to store the exported file on http://www.dropbox.com/
+
+# Setup Steps #
+  * decide where the script will run.
+    * it can run on any windows computer.
+    * It will need to access the "items" file exported from quickbooks.
+    * I run it as a scheduled Task every 10 minutes
+  * gather your database credentials
+    * username - of a user with privileges to update the data
+    * password
+    * database name
+    * database server FQDN name
+
+## configuring the program ##
+  * edit the file "qb2zenImport.exe.config" changing the values to be valid for your situation.
+```
+<add key="LogPath" value="C:\PATH\TO\LOG\FILES\" />
+<add key ="ItemsFile" value ="C:\PATH\TO\ECPORTED\INVENTORY\FILE\QB POS Inventory Items Export.xls"/>
+<add key ="ArchivePath" value ="c:\PATH\TO\ARCHIVE\OLD\INFO\"/>
+<add key="zcServer" value="FQDN_ZENCART_DATABASE_SERVER_NAME"/>
+<add key="zcUser" value="ZENCART_USERNAME"/>
+<add key="zcPassword" value="ZENCART_PASSWORD"/>
+<add key="zcDatabase" value="ZENCART_DATABASE_NAME"/>
+```
+    * I usually make the log path and the archive path the same location.
+    * If you're running the script on a computer that is not the point of sale computer, you should use Dropbox as the destination of the export and also as the path included in the "ItemsFile" value.
+
+
+
+## exporting from quickbooks ##
+  * Read here [ExportingFromQBPOS](ExportingFromQBPOS.md)
+
+
+# What output to expect #
+  * The program produces two files of output
+    * `<datetimestamp>`NotOnline.csv
+      * This contains a listing of all items which are in the export file but were not found online. You can use this to know which items to your online cart
+    * `<datetimestamp>`Online.csv
+      * This file contains all of the items that were found in the online cart, and whether or not the quantities were updated.
+  * The program also moves the ItemsFile from it's original location into the Archve path, and also changes it's name to be a datetimestamp only.

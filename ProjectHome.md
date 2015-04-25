@@ -1,0 +1,1 @@
+To keep quantities of items in sync between the brick store and the online store, I needed a way to keep the zencart up to date with the inventory in the store. This project solves that problem in a simplistic way.

@@ -1,0 +1,17 @@
+#Steps for Exporting the Items from QuickBooks Point of Sale
+
+  * Log into Point of Sale
+  * Click on “Items”
+  * Once the items list opens, click the “I Want to… “ button and choose “Export to Excel”
+  * Then the Export Wizard starts.
+  * First choose to export  “All Inventory Items”
+  * MAKE SURE THE “Select destination file” is set to the location where you have or will configure the program to look for it.
+  * Then choose the “Export for OnlineCart” Template
+    * You will want to create a template which contains only the columns containing the Item Number, the Item Name, and the Item Quantity (in our point of sale the columns are named "Item Number" "Item Name" "QTY 1")
+    * THE COLUMNS MUST BE IN THIS ORDER  (this will be the next change I add to the program - to not be this strict)
+      * column #1 must be the Item Number
+      * column #2 must be the Item Name
+      * column #3 MUST be the Quantity
+  * uncheck the box indicating that it will open the spreadsheet if you don’t want to see the spreadsheet
+  * Then click the “Export” button
+# Once the Export Status bar fills up with green, click Finish and you’re done! #

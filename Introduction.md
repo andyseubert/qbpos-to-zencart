@@ -1,0 +1,25 @@
+# Introduction #
+This is a program which will take an .xls (excel) file of items and make sure the quantities of each item as they exist in quickbooks point of sale match an online zencart shopping cart.
+
+
+# Detailed Overview #
+
+Our physical store is where most of our sales are made.
+
+http://maps.google.com/maps/place?cid=9806749217862381080&q=flora&gl=us
+
+Because we also have an online store at http://florapdx.com we needed a way to keep the inventory quantities in both stores synced up.
+
+When a sale is made in the online store, the sale is processed manually through the quickbooks point of sale system, which keeps the physical store inventory accurate. When a sale in the physical store happens, there was no need other than inventory processing to keep the quantities in line. However, many times we would find that an online order would be placed for an item that was out of stock, and possibly out of production because many items are one of a kind.
+
+So I wrote this program to take a file produced by a manual inventory export from quickbooks point of sale and essentially import the quantities into the zencart shopping cart.
+
+# How it works #
+  * the person at the point of sale computer exports the "items" to excel.
+    * this location of this file needs to be known and added to the program's configuration
+    * Currently the file needs to be formatted in a particular way with particular columns
+  * The program reads in this file one line at a time.
+    * for each item, it looks up in the zencart mysql database to see if the item model number exists online.
+    * if the item does not exist, it makes a record of that fact in a csv formatted log file.
+    * If the item does exist online, the program checks to see if the online cart in-stock quantity matches the in store in-stock quantity. If the numbers are different, the program updates the online store quantity with the in store quantity.
+    * The program also makes a note in a csv formatted file as to what the online name is, what the in-store name is, what the quantities were that it found, and whether or not it updated the quantity. If it updates the quantity, it also logs the SQL statement used to make the update. This will allow a person to relatively easily undo the changes if desired.
